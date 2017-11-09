@@ -405,6 +405,13 @@ nav {
   background-color: rgba(255, 255, 255, 0.75); }
   nav a {
     font-weight: 600; }
+  nav li {
+    opacity: 0.8; }
+    nav li.active {
+      color: #000; }
+      nav li.active a {
+        border-bottom: 1px #000 solid;
+        padding-bottom: 0; }
 
 .container .left-side {
   position: relative; }

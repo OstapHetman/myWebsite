@@ -4,4 +4,14 @@ nav {
     a {
         font-weight: 600;
     }
+    li {
+        opacity: 0.8;
+        &.active {
+            color: #000;
+            a {
+                border-bottom: 1px #000 solid;
+                padding-bottom: 0;
+            }
+        }
+    }
 }
