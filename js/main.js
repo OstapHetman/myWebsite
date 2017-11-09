@@ -3,4 +3,5 @@ $(document).ready(function() {
         speed: 500,
         direction: 'both'
     });
+    $('#multiscroll').multiscroll();
 });

@@ -1,0 +1,12 @@
+#multiscroll {
+    min-height: 100vh;
+    .col-md-6 {
+        padding: 0;
+    }
+    .ms-left .active {
+        background-color: rgb(254, 191, 7);
+    }
+    .ms-right .active {
+        background-color: rgb(130, 170, 36);
+    }
+}

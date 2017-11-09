@@ -402,7 +402,8 @@ a.btn {
 
 nav {
   box-shadow: 0 8px 6px -6px grey;
-  background-color: rgba(255, 255, 255, 0.75); }
+  background-color: rgba(255, 255, 255, 0.75);
+  z-index: 999; }
   nav a {
     font-weight: 600; }
   nav li {
@@ -432,12 +433,22 @@ nav {
       font-weight: 600;
       text-transform: uppercase; }
   .container .left-side .idea-text {
-    position: relative; }
+    position: relative;
+    top: 6%; }
     .container .left-side .idea-text span {
       font-size: 2rem;
       color: #cd594a; }
       .container .left-side .idea-text span b {
         color: #9a2617; }
+
+#multiscroll {
+  min-height: 100vh; }
+  #multiscroll .col-md-6 {
+    padding: 0; }
+  #multiscroll .ms-left .active {
+    background-color: #febf07; }
+  #multiscroll .ms-right .active {
+    background-color: #82aa24; }
 
 /*================ 
     Media Query 
