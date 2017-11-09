@@ -395,6 +395,25 @@ nav {
   nav a {
     font-weight: 600; }
 
+.container .left-side {
+  position: relative !important; }
+  .container .left-side .back-text {
+    position: absolute;
+    top: -66%;
+    left: -16%; }
+    .container .left-side .back-text span {
+      font-size: 20rem;
+      font-weight: 900;
+      color: #f6f6f6;
+      text-transform: uppercase; }
+  .container .left-side .funny-text {
+    color: #ebc944;
+    padding-top: 14%; }
+    .container .left-side .funny-text .charWrap {
+      font-size: 3rem;
+      font-weight: 600;
+      text-transform: uppercase; }
+
 /*================ 
     Media Query 
    =============*/

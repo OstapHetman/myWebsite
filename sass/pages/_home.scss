@@ -1,0 +1,25 @@
+.container {
+    .left-side {
+        position: relative !important;
+        .back-text {
+            position: absolute;
+            top: -66%;
+            left: -16%;
+            span {
+                font-size: 20rem;
+                font-weight: 900;
+                color: #f6f6f6;
+                text-transform: uppercase;
+            }
+        }
+        .funny-text {
+            color: $mainTextColor;
+            padding-top: 14%;
+            .charWrap {
+                font-size: 3rem;
+                font-weight: 600;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
