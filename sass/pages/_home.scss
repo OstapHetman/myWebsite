@@ -1,9 +1,9 @@
 .container {
     .left-side {
-        position: relative !important;
+        position: relative;
         .back-text {
             position: absolute;
-            top: -66%;
+            top: -26%;
             left: -16%;
             span {
                 font-size: 20rem;
@@ -14,11 +14,21 @@
         }
         .funny-text {
             color: $mainTextColor;
-            padding-top: 14%;
+            padding-top: 15%;
             .charWrap {
                 font-size: 3rem;
                 font-weight: 600;
                 text-transform: uppercase;
+            }
+        }
+        .idea-text {
+            position: relative;
+            span {
+                font-size: 2rem;
+                color: $ideaTextColor;
+                b {
+                    color: $ideaTextBold;
+                }
             }
         }
     }

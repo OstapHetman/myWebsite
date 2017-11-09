@@ -1,0 +1,12 @@
+a.btn {
+    margin-top: 8rem;
+    font-size: 2rem;
+    color: #fff;
+    background-color: $ideaTextColor;
+    width: 8em;
+    &:hover {
+        color: $ideaTextColor;
+        border: 2px $ideaTextColor solid;
+        background-color: #fff;
+    }
+}

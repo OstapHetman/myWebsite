@@ -389,6 +389,17 @@ template {
 [hidden] {
   display: none; }
 
+a.btn {
+  margin-top: 8rem;
+  font-size: 2rem;
+  color: #fff;
+  background-color: #cd594a;
+  width: 8em; }
+  a.btn:hover {
+    color: #cd594a;
+    border: 2px #cd594a solid;
+    background-color: #fff; }
+
 nav {
   box-shadow: 0 8px 6px -6px grey;
   background-color: rgba(255, 255, 255, 0.75); }
@@ -396,10 +407,10 @@ nav {
     font-weight: 600; }
 
 .container .left-side {
-  position: relative !important; }
+  position: relative; }
   .container .left-side .back-text {
     position: absolute;
-    top: -66%;
+    top: -26%;
     left: -16%; }
     .container .left-side .back-text span {
       font-size: 20rem;
@@ -408,11 +419,18 @@ nav {
       text-transform: uppercase; }
   .container .left-side .funny-text {
     color: #ebc944;
-    padding-top: 14%; }
+    padding-top: 15%; }
     .container .left-side .funny-text .charWrap {
       font-size: 3rem;
       font-weight: 600;
       text-transform: uppercase; }
+  .container .left-side .idea-text {
+    position: relative; }
+    .container .left-side .idea-text span {
+      font-size: 2rem;
+      color: #cd594a; }
+      .container .left-side .idea-text span b {
+        color: #9a2617; }
 
 /*================ 
     Media Query 

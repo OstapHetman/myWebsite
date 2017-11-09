@@ -2,13 +2,13 @@
 @import 'base/_normalize';
 @import 'base/_typography';
 // ======================= //
-// ===== Components Folder====== //
-@import 'components/_buttons';
-// ======================= //
 // ===== Helpers Folder====== //
 @import 'helpers/_variables';
 @import 'helpers/_functions';
 @import 'helpers/_mixins';
+// ======================= //
+// ===== Components Folder====== //
+@import 'components/_buttons';
 // ======================= //
 // ===== Layout Folder====== //
 @import 'layout/_header';
