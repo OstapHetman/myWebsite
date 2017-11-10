@@ -417,9 +417,9 @@ nav {
 .container .left-side {
   position: relative; }
   .container .left-side .back-text {
-    position: absolute;
-    top: -26%;
-    left: -16%; }
+    position: fixed;
+    top: -0.6%;
+    left: -2%; }
     .container .left-side .back-text span {
       font-size: 20rem;
       font-weight: 900;
@@ -440,6 +440,40 @@ nav {
       color: #cd594a; }
       .container .left-side .idea-text span b {
         color: #9a2617; }
+
+.container .right-side .clock {
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: none;
+  border: 0.8em solid #f6f6f6;
+  border-radius: 50%;
+  left: calc(75% - 131px);
+  top: calc(100% - 131px);
+  z-index: 1; }
+  .container .right-side .clock .center_clock {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #f6f6f6;
+    border-radius: 50%;
+    left: calc(50% - 7.5px);
+    top: calc(50% - 7.5px);
+    z-index: 3; }
+  .container .right-side .clock .time {
+    position: absolute;
+    transform-origin: top;
+    background: #f6f6f6;
+    top: 50%;
+    width: 0.6em;
+    left: calc(50% - 6px);
+    z-index: 2; }
+  .container .right-side .clock .hour {
+    height: 30%; }
+  .container .right-side .clock .minute {
+    height: 40%; }
+  .container .right-side .clock .second {
+    height: 46%; }
 
 #multiscroll {
   min-height: 100vh; }
