@@ -413,6 +413,18 @@ a.btn {
       color: #fecf00;
       border: 2px #fecf00 solid;
       background-color: #fff; }
+  a.btn.photographer-btn {
+    margin-left: 2em;
+    margin-top: 4rem;
+    font-size: 1.6rem;
+    justify-content: center;
+    display: inline-flex;
+    background-color: #dcdcdc;
+    color: #fff; }
+    a.btn.photographer-btn:hover {
+      color: #dcdcdc;
+      border: 2px #dcdcdc solid;
+      background-color: #fff; }
 
 nav {
   box-shadow: 0 8px 6px -6px grey;
@@ -503,12 +515,31 @@ nav {
     text-transform: uppercase; }
   .project-page #multiscroll .ms-left .interplastik .description {
     margin-left: 3em; }
+  .project-page #multiscroll .ms-left .photographer .text-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    margin-bottom: 2em; }
+    .project-page #multiscroll .ms-left .photographer .text-header h1 {
+      font-size: 5.1rem;
+      font-weight: 800;
+      color: #dcdcdc;
+      text-transform: uppercase;
+      margin: 0 0; }
+  .project-page #multiscroll .ms-left .photographer .description {
+    margin-left: 3em; }
   .project-page #multiscroll .ms-right .ms-tableCell {
     align-items: center;
     justify-content: center; }
   .project-page #multiscroll .ms-right .interplastik {
     background-color: #fecf00; }
     .project-page #multiscroll .ms-right .interplastik img {
+      min-width: 17em;
+      margin-bottom: 10em; }
+  .project-page #multiscroll .ms-right .photographer {
+    background-color: #dcdcdc; }
+    .project-page #multiscroll .ms-right .photographer img {
       min-width: 17em;
       margin-bottom: 10em; }
 

@@ -25,4 +25,18 @@ a.btn {
             background-color: #fff;
         }
     }
+    &.photographer-btn {
+        margin-left: 2em;
+        margin-top: 4rem;
+        font-size: 1.6rem;
+        justify-content: center;
+        display: inline-flex;
+        background-color: $photographerBg;
+        color: #fff;
+        &:hover {
+            color: $photographerClr;
+            border: 2px $photographerBg solid;
+            background-color: #fff;
+        }
+    }
 }

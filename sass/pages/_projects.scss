@@ -20,6 +20,25 @@
                     margin-left: 3em;
                 }
             }
+            .photographer {
+                .text-header {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    margin-top: 2em;
+                    margin-bottom: 2em;
+                    h1 {
+                        font-size: 5.1rem;
+                        font-weight: 800;
+                        color: $photographerClr;
+                        text-transform: uppercase;
+                        margin: 0 0;
+                    }
+                }
+                .description {
+                    margin-left: 3em;
+                }
+            }
         }
         .ms-right {
             .ms-tableCell {
@@ -28,6 +47,13 @@
             }
             .interplastik {
                 background-color: $interplastikBg;
+                img {
+                    min-width: 17em;
+                    margin-bottom: 10em;
+                }
+            }
+            .photographer {
+                background-color: $photographerBg;
                 img {
                     min-width: 17em;
                     margin-bottom: 10em;
