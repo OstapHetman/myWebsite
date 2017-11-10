@@ -503,8 +503,14 @@ nav {
     text-transform: uppercase; }
   .project-page #multiscroll .ms-left .interplastik .description {
     margin-left: 3em; }
+  .project-page #multiscroll .ms-right .ms-tableCell {
+    align-items: center;
+    justify-content: center; }
   .project-page #multiscroll .ms-right .interplastik {
     background-color: #fecf00; }
+    .project-page #multiscroll .ms-right .interplastik img {
+      min-width: 17em;
+      margin-bottom: 10em; }
 
 .contact-page .head-text {
   margin-top: 4em; }
@@ -516,6 +522,8 @@ nav {
     .contact-page .head-text h1 span {
       font-size: 4rem;
       font-weight: 800; }
+      .contact-page .head-text h1 span:first-child {
+        color: #ebc944; }
       .contact-page .head-text h1 span:nth-child(2) {
         font-weight: 500;
         font-size: 1.6rem;

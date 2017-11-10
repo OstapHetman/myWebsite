@@ -22,8 +22,16 @@
             }
         }
         .ms-right {
+            .ms-tableCell {
+                align-items: center;
+                justify-content: center;
+            }
             .interplastik {
                 background-color: $interplastikBg;
+                img {
+                    min-width: 17em;
+                    margin-bottom: 10em;
+                }
             }
         }
     }
