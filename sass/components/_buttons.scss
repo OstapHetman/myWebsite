@@ -2,11 +2,27 @@ a.btn {
     margin-top: 8rem;
     font-size: 2rem;
     color: #fff;
+    border-radius: unset;
+    box-shadow: 0 0 5px $watermarkColor !important;
     background-color: $ideaTextColor;
     width: 8em;
     &:hover {
         color: $ideaTextColor;
         border: 2px $ideaTextColor solid;
         background-color: #fff;
+    }
+    &.interplastik-btn {
+        margin-left: 2em;
+        margin-top: 4rem;
+        font-size: 1.6rem;
+        justify-content: center;
+        display: inline-flex;
+        background-color: $interplastikBg;
+        color: #fff;
+        &:hover {
+            color: $interplastikClr;
+            border: 2px $interplastikBg solid;
+            background-color: #fff;
+        }
     }
 }

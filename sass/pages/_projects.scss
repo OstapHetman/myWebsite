@@ -1,12 +1,30 @@
-#multiscroll {
-    min-height: 100vh;
-    .col-md-6 {
-        padding: 0;
-    }
-    .ms-left .active {
-        background-color: rgb(254, 191, 7);
-    }
-    .ms-right .active {
-        background-color: rgb(130, 170, 36);
+.project-page {
+    #multiscroll {
+        min-height: 100vh;
+        .ms-tableCell {
+            display: flex;
+            flex-direction: column;
+        }
+        .col-md-6 {
+            padding: 0;
+        }
+        .ms-left {
+            .interplastik {
+                h1 {
+                    font-size: 6rem;
+                    font-weight: 800;
+                    color: $interplastikClr;
+                    text-transform: uppercase;
+                }
+                .description {
+                    margin-left: 3em;
+                }
+            }
+        }
+        .ms-right {
+            .interplastik {
+                background-color: $interplastikBg;
+            }
+        }
     }
 }
