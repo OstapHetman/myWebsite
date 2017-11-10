@@ -1,7 +1,92 @@
-.head-text {
-    h1 {
-        text-transform: uppercase;
-        opacity: 0.8;
-        font-weight: 800;
+.contact-page {
+    .head-text {
+        margin-top: 4em;
+        h1 {
+            text-transform: uppercase;
+            opacity: 0.8;
+            display: flex;
+            align-items: center;
+            span {
+                font-size: 4rem;
+                font-weight: 800;
+                &:nth-child(2) {
+                    font-weight: 500;
+                    font-size: 1.6rem;
+                    max-width: 4em;
+                    padding-top: 0.2em;
+                    padding-left: 0.3em;
+                }
+                &.right-span-text {
+                    max-width: 6em;
+                }
+            }
+        }
+    }
+    .text-under-head {
+        max-width: 21em;
+        p {
+            opacity: 0.6;
+        }
+    }
+    .social {
+        ul {
+            padding-left: 0;
+            li {
+                span {
+                    text-transform: uppercase;
+                    position: relative;
+                    bottom: 0.8em;
+                    left: 5em;
+                }
+                list-style: none;
+                background-color: #000;
+                opacity: 0.6;
+                border-radius: 50%;
+                width: 3em;
+                height: 3em;
+                margin-top: 1em;
+                i {
+                    font-size: 1.2rem;
+                    color: #fff;
+                    position: relative;
+                    top: 25%;
+                    left: 32%;
+                }
+            }
+        }
+    }
+    form {
+        input,
+        textarea,
+        button {
+            margin-top: 1.35em;
+            border-radius: unset;
+            box-shadow: 0 0 5px $watermarkColor;
+        }
+        input {
+            &:focus {
+                border: 1px solid $mainTextColor;
+            }
+        }
+        textarea {
+            resize: none;
+            &:focus {
+                border: 1px solid $mainTextColor;
+            }
+        }
+        button {
+            background-color: $ideaTextBold;
+            color: #fff;
+            font-weight: 500;
+            font-size: 1.2em;
+            &:focus {
+                box-shadow: unset !important;
+            }
+            &:hover {
+                border: 2px solid $ideaTextBold;
+                background: #fff;
+                color: $ideaTextBold;
+            }
+        }
     }
 }

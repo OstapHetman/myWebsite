@@ -411,7 +411,7 @@ nav {
     nav li.active {
       color: #000; }
       nav li.active a {
-        border-bottom: 1px #000 solid;
+        border-bottom: 1px solid #9a2617;
         padding-bottom: 0; }
 
 .container .left-side {
@@ -484,10 +484,78 @@ nav {
   #multiscroll .ms-right .active {
     background-color: #82aa24; }
 
-.head-text h1 {
-  text-transform: uppercase;
-  opacity: 0.8;
-  font-weight: 800; }
+.contact-page .head-text {
+  margin-top: 4em; }
+  .contact-page .head-text h1 {
+    text-transform: uppercase;
+    opacity: 0.8;
+    display: flex;
+    align-items: center; }
+    .contact-page .head-text h1 span {
+      font-size: 4rem;
+      font-weight: 800; }
+      .contact-page .head-text h1 span:nth-child(2) {
+        font-weight: 500;
+        font-size: 1.6rem;
+        max-width: 4em;
+        padding-top: 0.2em;
+        padding-left: 0.3em; }
+      .contact-page .head-text h1 span.right-span-text {
+        max-width: 6em; }
+
+.contact-page .text-under-head {
+  max-width: 21em; }
+  .contact-page .text-under-head p {
+    opacity: 0.6; }
+
+.contact-page .social ul {
+  padding-left: 0; }
+  .contact-page .social ul li {
+    list-style: none;
+    background-color: #000;
+    opacity: 0.6;
+    border-radius: 50%;
+    width: 3em;
+    height: 3em;
+    margin-top: 1em; }
+    .contact-page .social ul li span {
+      text-transform: uppercase;
+      position: relative;
+      bottom: 0.8em;
+      left: 5em; }
+    .contact-page .social ul li i {
+      font-size: 1.2rem;
+      color: #fff;
+      position: relative;
+      top: 25%;
+      left: 32%; }
+
+.contact-page form input,
+.contact-page form textarea,
+.contact-page form button {
+  margin-top: 1.35em;
+  border-radius: unset;
+  box-shadow: 0 0 5px #f6f6f6; }
+
+.contact-page form input:focus {
+  border: 1px solid #ebc944; }
+
+.contact-page form textarea {
+  resize: none; }
+  .contact-page form textarea:focus {
+    border: 1px solid #ebc944; }
+
+.contact-page form button {
+  background-color: #9a2617;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.2em; }
+  .contact-page form button:focus {
+    box-shadow: unset !important; }
+  .contact-page form button:hover {
+    border: 2px solid #9a2617;
+    background: #fff;
+    color: #9a2617; }
 
 /*================ 
     Media Query 

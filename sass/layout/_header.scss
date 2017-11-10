@@ -10,7 +10,7 @@ nav {
         &.active {
             color: #000;
             a {
-                border-bottom: 1px #000 solid;
+                border-bottom: 1px solid $ideaTextBold;
                 padding-bottom: 0;
             }
         }
