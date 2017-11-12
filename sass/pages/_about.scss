@@ -1,0 +1,26 @@
+.about-page {
+    .section {
+        min-height: 100vh;
+        width: 100vw;
+    }
+    #about-me {
+        background-color: $ideaTextColor;
+    }
+    #technologies {
+        background-color: $mainTextColor;
+        #skills {
+            height: 15em;
+        }
+        .carousel-indicators {
+            li {
+                max-width: 12px;
+                height: 12px;
+                background-color: unset;
+                border: 1px solid #000;
+            }
+        }
+        .carousel-indicators .active {
+            background-color: #333;
+        }
+    }
+}

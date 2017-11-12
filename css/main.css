@@ -428,7 +428,7 @@ a.btn {
 
 nav {
   box-shadow: 0 8px 6px -6px grey;
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: white;
   z-index: 999; }
   nav a {
     font-weight: 600; }
@@ -542,6 +542,25 @@ nav {
     .project-page #multiscroll .ms-right .photographer img {
       min-width: 17em;
       margin-bottom: 10em; }
+
+.about-page .section {
+  min-height: 100vh;
+  width: 100vw; }
+
+.about-page #about-me {
+  background-color: #cd594a; }
+
+.about-page #technologies {
+  background-color: #ebc944; }
+  .about-page #technologies #skills {
+    height: 15em; }
+  .about-page #technologies .carousel-indicators li {
+    max-width: 12px;
+    height: 12px;
+    background-color: unset;
+    border: 1px solid #000; }
+  .about-page #technologies .carousel-indicators .active {
+    background-color: #333; }
 
 .contact-page .head-text {
   margin-top: 4em; }
